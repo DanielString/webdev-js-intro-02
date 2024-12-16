@@ -14,16 +14,16 @@ let willMeetResolution = "Yes";
 
 function updateYear() {
     // write the logic
-    yearElement = currentYear;
+    yearElement.innerHTML = currentYear;
 }
 
 function updateResolution() {
     // Update this function 
-    resolutionElement = resolution;
+    resolutionElement.innerHTML = resolution;
 }
 
 function updateMeet() {
-    willMeetResolutionElement = willMeetResolution;
+    willMeetResolutionElement.innerHTML = willMeetResolution;
 }
 
 function render() {
